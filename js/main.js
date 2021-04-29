@@ -1,8 +1,10 @@
-let spin = document.getElementById (click);
+let arr = ['Pepi', 'Clau','Daniela T','Maria Laura', 'Amanda', 'Alisa','Ana G','Ana L', 'Angie', 'Daniela R' , 'Eliana',
+    'Flo', 'Gaby', 'Leo', 'Inga', 'Marta', 'Nicole', 'Olga', 'Yeraldine', 'Ranju', 'Rosangely','Sonia', 'Taiza', 'Yasmin'];
 
-    function random (){
-            return Math.floor(Math.random)
+const spinner = document.getElementById("spin");
+
+    function chooseName(){
+        console.log(arr[Math.floor(Math.random() * arr.length)]);
+
     }
-spin.addEventListener(typeof "click", chooseName);
-
-
+spinner.addEventListener("click", chooseName);
