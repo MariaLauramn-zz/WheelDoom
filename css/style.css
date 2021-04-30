@@ -6,20 +6,22 @@ html {
     padding: 0;
     margin: 0;
 }
-
 body {
     color: #FFF;
     text-align: center;
 }
-
-<<<<<<< HEAD
-canvas {
-    width = 880px;
-    height = 300px;
-    background-color: silver;
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
 }
-=======
-button {
-
+p {
+    color: #4f9cec;
+    text-align: center;
+    font-size: 28px;
 }
->>>>>>> af0d56771e34cb42b55f1a83e86a6dd6e62e7fe3
+#result {
+    font-weight: bold;
+}
+
