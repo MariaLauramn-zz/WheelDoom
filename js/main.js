@@ -8,3 +8,5 @@ const spinner = document.getElementById("spin");
 
     }
 spinner.addEventListener("click", chooseName);
+
+}
