@@ -8,3 +8,10 @@ const spinner = document.getElementById("spin");
 
     }
 spinner.addEventListener("click", chooseName);
+
+    function nameSelector (){
+        spinner = arr [Math.floor(Math.random()*arr.length)];
+        message = "La seleccionada es:  ";
+
+        }
+     document.getElementById("spinner").innerHTML = message;
