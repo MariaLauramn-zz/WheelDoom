@@ -12,8 +12,14 @@ body {
     text-align: center;
 }
 
+<<<<<<< HEAD
 canvas {
     width = 880px;
     height = 300px;
     background-color: silver;
 }
+=======
+button {
+
+}
+>>>>>>> af0d56771e34cb42b55f1a83e86a6dd6e62e7fe3
