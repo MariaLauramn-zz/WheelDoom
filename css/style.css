@@ -9,19 +9,26 @@ html {
 body {
     color: #FFF;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 main {
+    background-image: url("../img/background-Seabed-01.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 30px;
+    width: 100%;
 }
 p {
-    color: #4f9cec;
+    color: #fe4242;
     text-align: center;
     font-size: 28px;
 }
 #result {
     font-weight: bold;
+    color: #fbb03b;
 }
-
+.imgOctopus {
+    width: 30%;
+}
