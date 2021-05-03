@@ -11,10 +11,10 @@ function selectName(){
 }
 
 function showList(){
-    let people = names.slice();
-    group.innerHTML = people;
-    let lastIndexOf = names.indexOf(people);
+    let lista = names.slice();
+    group.innerHTML = lista;
     let deleteName = names.splice(group,1);
 }
 button.addEventListener("click",selectName)
+names.addEventListener("load", showList)
 
