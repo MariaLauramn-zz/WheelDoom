@@ -10,3 +10,10 @@ function selectName(){
 }
 button.addEventListener("click",selectName)
 
+let group = document.getElementById("lista");
+function showList(){
+    let people = names.slice();
+    group.innerHTML = people;
+}
+
+group.addEventListener("click",showList)
