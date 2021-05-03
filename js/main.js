@@ -9,12 +9,12 @@ function selectName(){
     let indexOfWinner = names.indexOf(winner);
     let deleteName = names.splice(indexOfWinner,1);
 }
-
 function showList(){
     let lista = names.slice();
-    group.innerHTML = lista;
+    names.innerHTML = lista;
     let deleteName = names.splice(group,1);
+
 }
 button.addEventListener("click",selectName)
-names.addEventListener("load", showList)
+
 
