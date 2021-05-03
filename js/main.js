@@ -13,7 +13,8 @@ function selectName(){
 function showList(){
     let people = names.slice();
     group.innerHTML = people;
+    let lastIndexOf = names.indexOf(people);
     let deleteName = names.splice(group,1);
 }
-button.addEventListener("click",selectName,showList())
+button.addEventListener("click",selectName)
 
