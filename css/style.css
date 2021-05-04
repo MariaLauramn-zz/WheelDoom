@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 main {
-    background-image: url("../img/background-Seabed-01.svg");
+    background-image: url("../img/background-Seabed.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,10 +25,19 @@ p {
     text-align: center;
     font-size: 25px;
 }
+.imgOctopus {
+    width: 250px;
+    height: 250px;
+}
 #result {
     font-weight: bold;
     color: #fbb03b;
 }
-.imgOctopus {
-    width: 450px;
+.board {
+    background-image: url("../img/board.svg");
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
