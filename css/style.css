@@ -23,12 +23,12 @@ main {
 p {
     color: #fe4242;
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
 }
 #result {
     font-weight: bold;
     color: #fbb03b;
 }
 .imgOctopus {
-    width: 30%;
+    width: 450px;
 }
