@@ -18,7 +18,6 @@ main {
     background-size: cover;
     background-position: center;
     padding: 30px;
-    width: 100%;
 }
 p {
     color: #fe4242;
@@ -29,15 +28,24 @@ p {
     width: 250px;
     height: 250px;
 }
-#result {
-    font-weight: bold;
-    color: #fbb03b;
+#controls {
+    margin: 0 0 50px;
+
 }
 .board {
     background-image: url("../img/board.svg");
-    width: 250px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    background-size: contain;
+    background-position: 50% 50%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding:30px;
 
+}
+#result {
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
