@@ -10,7 +10,10 @@ function selectName(){
     let indexOfWinner = names.indexOf(winner);
     let deleteName = names.splice(indexOfWinner,1);
 }
+
 button.addEventListener("click",selectName);
+
+
 
 
 
