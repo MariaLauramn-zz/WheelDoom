@@ -14,12 +14,8 @@ function selectName() {
         group.innerText = names.join(", ");
     }
     else {
+        resultext.innerHTML = "You must reload game";
         document.getElementById("spin").disabled=true;
     }
 }
 button.addEventListener("click",selectName);
-
-
-
-
-
