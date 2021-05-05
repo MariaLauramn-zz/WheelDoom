@@ -1,20 +1,21 @@
-const button = document.getElementById("spin");
+let button = document.getElementById("spin");
 const resultext = document.getElementById("result");
-let group = document.getElementById("lista");
+const group= document.getElementById("lista");
 const names = ["Alisa", "Amanda", "Ana G.", "Ana L.", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga", "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sònia", "Taiza", "Yasmin"];
 
-function selectName(){
-    let winner = names[Math.floor(Math.random() * names.length)];
-    resultext.innerHTML = winner;
-    let indexOfWinner = names.indexOf(winner);
-    let deleteName = names.splice(indexOfWinner,1);
-}
+group.innerText = names.join(", ");
 
-function showList(){
-    let lista = names.slice();
-    group.innerHTML = lista;
-    let deleteName = names.splice(group,1);
+function selectName() {
+    if (names.length > 0) { // cuando la cantidad de elementos del objeto names sea mayor a 0
+        const position = Math.floor(Math.random() * names.length);
+        let winner = names[position];
+        resultext.innerHTML = winner;
+        names.splice(position, 1);
+        group.innerText = names.join(", ");
+    }
+    else {
+        resultext.innerHTML = "You must reload game";
+        document.getElementById("spin").disabled=true;
+    }
 }
-button.addEventListener("click",selectName)
-names.addEventListener("load", showList)
-
+button.addEventListener("click",selectName);

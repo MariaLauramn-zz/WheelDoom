@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Octopus game</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Octopus Game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <div id="intro">
-            <h1>Welcome to our game!</h1>
-            <p>Click "Spin" to choose the winner </p>
-        </div>
-            <div><p id="lista">***</p>
-            </div>
-        <div id="controls">
-            <button id="spin">Spin</button>
-            <button id ="reset">Reset</button>
-        </div>
+<main>
+    <div id="intro">
+        <h1>Welcome to our game!</h1>
         <div>
-            <p>The winner is:</p>
-            <p id="result">...</p>
         </div>
-        <div><img class="imgOctopus" src="img/octopus.svg" alt="octopus"></div>
-    </main>
-  <script src="js/main.js"></script>
+    </div>
+    <div>
+        <p id="lista">* * *</p>
+    </div>
+    <div id="controls">
+        <button id="spin">Choose the winner</button>
+        <button id ="reload" onclick="location.reload()">Reload the game</button>
+    </div>
+    <div class="board">
+        <p>The winner is:</p>
+        <p id="result" >* * *</p>
+    </div>
+    <div>
+        <img class="imgOctopus" src="img/octopus.svg" alt="Octopus">
+    </div>
+</main>
+<script src="js/main.js"></script>
 </body>
 </html>
