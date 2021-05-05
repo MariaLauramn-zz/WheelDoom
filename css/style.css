@@ -2,9 +2,25 @@
 body {
     font-size: 1em;
     line-height: 1.4;
+<<<<<<< HEAD
+=======
+    background-color: #CCC;
+    padding: 0;
+    margin: 0;
+}
+body {
+>>>>>>> b423f02f6864bbb2de568adce5eecf87c606b539
     text-align: center;
     margin: 0;
+<<<<<<< HEAD
     max-width: 100%;
+=======
+}
+main {
+    color: #FFF;
+    display:flex;
+    flex-flow: column;
+>>>>>>> b423f02f6864bbb2de568adce5eecf87c606b539
     background-image: url("../img/seabed.svg");
     background-repeat: no-repeat;
     background-position: center;
