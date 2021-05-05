@@ -1,48 +1,42 @@
-html {
-    color: #FFF;
+
+body {
     font-size: 1em;
     line-height: 1.4;
-    background-color: #CCC;
-    padding: 0;
-    margin: 0;
-}
-body {
-    color: #FFF;
     text-align: center;
-    padding: 0;
     margin: 0;
-}
-main {
-    background-image: url("../img/background-Seabed.svg");
+    max-width: 100%;
+    background-image: url("../img/seabed.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    color: #FFF;
     padding: 30px;
+    background-attachment: fixed;
+    justify-items: center;
 }
 p {
-    color: #fe4242;
     text-align: center;
     font-size: 25px;
-}
-.imgOctopus {
-    width: 250px;
-    height: 250px;
+    text-align: center;
+    padding: 0 120px;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 #controls {
     margin: 0 0 50px;
-
 }
 .board {
-    background-image: url("../img/board.svg");
+    background-image: url("../img/octopusBoard.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 50%;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    height: 300px;
     position: relative;
     padding:30px;
-
+}
+.imgOctopus {
+    width: 250px;
+    height: 250px;
 }
 #result {
     font-weight: bold;
