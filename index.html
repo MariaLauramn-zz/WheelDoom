@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Octopus Game</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div id="page" class="wrapper">
+    <div class="container-btn-mode">
+        <div id="id-sun" class="btn-mode sun active">
+            <i class="fas fa-sun"></i>
+        </div>
+        <div id="id-moon" class="btn-mode moon">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
     <div id="intro">
         <h1>Welcome to our game!</h1>
     </div>
@@ -21,6 +32,7 @@
         <p class="winner">The winner is:</p>
         <p id="result" >* * *</p>
     </div>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
