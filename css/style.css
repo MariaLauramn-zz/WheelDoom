@@ -44,6 +44,7 @@ h1{
     height: 70px;
 }
 .board {
+    max-width: 100%;
     background-image: url("../img/octopusBoard.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -66,4 +67,12 @@ h1{
     text-align: center;
     font-size: 30px;
 
+}
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #lista {
+        font-size: 20px;
+    }
 }
