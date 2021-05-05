@@ -7,20 +7,21 @@ html {
     margin: 0;
 }
 body {
-    color: #FFF;
     text-align: center;
     padding: 0;
     margin: 0;
 }
 main {
-    background-image: url("../img/background-Seabed.svg");
+    color: #FFF;
+    display:flex;
+    flex-flow: column;
+    background-image: url("../img/seabed.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
 p {
-    color: #fe4242;
     text-align: center;
     font-size: 25px;
 }
