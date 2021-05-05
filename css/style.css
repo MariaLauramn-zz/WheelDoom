@@ -44,6 +44,7 @@ h1{
     height: 70px;
 }
 .board {
+    max-width: 100%;
     background-image: url("../img/octopusBoard.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -120,8 +121,19 @@ h1{
 .dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
     color:white;
 }
+<<<<<<< HEAD
 .dark-mode .btn-mode{
     background-color:#1A1C1E;
     border:1px solid white;
     color:white;
 }
+=======
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #lista {
+        font-size: 20px;
+    }
+}
+>>>>>>> 46c7136b06500ffb6018be156d3e30e97ce1dbc0

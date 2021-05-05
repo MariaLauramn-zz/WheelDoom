@@ -25,13 +25,11 @@ document.getElementById('id-sun').onclick = function(onclick){
     document.getElementById('id-moon').classList.remove('active')
     this.classList.add('active')
     button.addEventListener("click",onclick);
-
 }
 document.getElementById('id-moon').onclick = function(onclick){
     document.getElementById('page').classList.add('dark-mode')
     document.getElementById('id-sun').classList.remove('active')
     this.classList.add('active')
     button.addEventListener("click",onclick);
-
 }
 
