@@ -30,10 +30,13 @@ p {
     border-radius: 5px;
     color: #FFFFFF;
     font-weight: 500;
-    font-size:large ;
+    font-size:large;
     font-family:"Comic Sans MS";
     margin: 0 5px;
 }
+#spin:hover, #reload:hover {
+    border: 2px solid #FF3333;
+  }
 h1{
     font-family: "Times New Roman",Times, serif;
     font-size: 50px;
@@ -130,21 +133,30 @@ h1{
     .img-profile {
         border-radius: 5%;
     }
-
+    #lista {
+        height: 50px;
+        font-size: small;
+    }
 }
 /*Smartphone*/
 @media (min-width: 320px) and (max-width: 767px) {
-
-}
-
-@media only screen{
-and (min-device-width: 1025px)
-and (max-device-width: 767px)
-and (-webkit-min-device-pixel-ratio: 2) {
-    .img-profile {
-        border-radius: 5%;
-    }
-    .intro {
+    h1 {
+        margin: 55px 0 18px;
         font-size: 30px;
+   }
+    #lista {
+        font-size: 18px;
+        padding: 0;
+        line-height: 25px;
+        margin-bottom: 90px;
+    }
+    #spin, #reload {
+        margin-bottom: 10px;
+    }
+    .board {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }
