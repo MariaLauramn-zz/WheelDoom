@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0;
     max-width: 100%;
-    background-image: url("../img/seabed.svg");
+    background-image: url("../img/seabed-day.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,7 +117,10 @@ h1{
 /*Estilo modo noche*/
 
 .dark-mode{
-    background-color: #0e0e0e;
+    background-image: url("../img/seabed-night.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
     transition:background-color .5s;
 }
 .dark-mode .card{
