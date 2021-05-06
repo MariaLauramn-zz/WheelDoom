@@ -140,6 +140,9 @@ h1{
         height: 50px;
         font-size: 15px;
     }
+    .container-btn-mode{
+
+    }
 }
 /*Smartphone*/
 @media (min-width: 320px) and (max-width: 767px) {
