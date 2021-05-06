@@ -89,6 +89,7 @@ h1{
     border:2px solid black;
     transition: background-color .5s;
 }
+/* imagenes del sol y la luna*/
 .btn-mode i {
     display: block;
     font-size: 17px;
@@ -104,9 +105,10 @@ h1{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 .active{
     background-color:black;
-    color:#ffcd5c !important;
+    color:#ffcd5c
 }
 
 /*Estilo modo noche*/
@@ -118,22 +120,31 @@ h1{
 .dark-mode .card{
     background-color: #1A1C1E;
 }
-.dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
-    color:white;
+/*desktop*/
+@media (min-width: 1025px){
+
+
 }
-<<<<<<< HEAD
-.dark-mode .btn-mode{
-    background-color:#1A1C1E;
-    border:1px solid white;
-    color:white;
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-profile {
+        border-radius: 5%;
+    }
+
 }
-=======
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
+/*Smartphone*/
+@media (min-width: 320px) and (max-width: 767px) {
+
+}
+
+@media only screen{
+and (min-device-width: 1025px)
+and (max-device-width: 767px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #lista {
-        font-size: 20px;
+    .img-profile {
+        border-radius: 5%;
+    }
+    .intro {
+        font-size: 30px;
     }
 }
->>>>>>> 46c7136b06500ffb6018be156d3e30e97ce1dbc0
