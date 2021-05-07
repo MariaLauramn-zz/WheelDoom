@@ -12,6 +12,11 @@ body {
     background-attachment: fixed;
     justify-items: center;
 }
+.weatherwidget-io{
+    width:350px;
+    background-color: transparent;
+    color: #ffff00;
+}
 p {
     text-align: center;
     font-size: 25px;
