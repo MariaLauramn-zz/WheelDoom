@@ -1,4 +1,9 @@
 let button = document.getElementById("spin");
+const soundBtn = document.querySelector('.spin')
+let burbujas = document.querySelector('#burbujas');
+soundBtn.addEventListener('clic',()=>{
+    burbujas.play();
+});
 const resultext = document.getElementById("result");
 const group= document.getElementById("lista");
 const names = ["Alisa", "Amanda", "Ana G.", "Ana L.", "Angie", "Clau", "Daniela R.", "Daniela T.", "Eliana", "Flo", "Gaby", "Leo", "Inga", "Pepi", "María Laura", "Marta", "Nicole", "Olga", "Yeraldin", "Ranju", "Rosangely", "Sònia", "Taiza", "Yasmin"];
@@ -12,6 +17,7 @@ function selectName() {
         resultext.innerHTML = winner;
         names.splice(position, 1);
         group.innerText = names.join(", ");
+
     }
     else {
         resultext.innerHTML = "You must reload game";

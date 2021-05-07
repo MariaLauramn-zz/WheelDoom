@@ -17,7 +17,6 @@
             <i class="fas fa-moon"></i>
         </div>
     </div>
-
     <div id="intro">
         <h1>Welcome to our game!</h1>
     </div>
@@ -25,7 +24,8 @@
         <p id="lista">* * *</p>
     </div>
     <div id="controls">
-        <button id="spin">Choose the winner</button>
+        <audio src="audio/burbujas.mp3" id="burbujas"></audio>
+        <button id="spin" onclick="burbujas.play()">Choose the winner</button>
         <button id ="reload" onclick="location.reload()">Reload the game</button>
     </div>
     <div class="board">
